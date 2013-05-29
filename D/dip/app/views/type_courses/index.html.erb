@@ -1,0 +1,23 @@
+<h1>Listing type_courses</h1>
+
+<table>
+  <tr>
+    <th>Title</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @type_courses.each do |type_course| %>
+  <tr>
+    <td><%= type_course.title %></td>
+    <td><%= link_to 'Show', type_course %></td>
+    <td><%= link_to 'Edit', edit_type_course_path(type_course) %></td>
+    <td><%= link_to 'Destroy', type_course, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Type course', new_type_course_path %>

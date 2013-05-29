@@ -1,0 +1,19 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  title: MyString
+  cost_g: 1
+  cost_i: 
+  duration_g: 1
+  duration_i: 1
+  enrollment: MyString
+  type_courses_id: MyString
+
+two:
+  title: MyString
+  cost_g: 1
+  cost_i: 
+  duration_g: 1
+  duration_i: 1
+  enrollment: MyString
+  type_courses_id: MyString
